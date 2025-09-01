@@ -1,0 +1,42 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: banking-team
+  title: Banking Team
+  description: Team responsible for core banking.
+  tags:
+    - team
+    - banking
+spec:
+  type: team
+  parent: bancorocks
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: marketing-team
+  title: Marketing Team
+  description: Team responsible for marketing systems.
+  tags:
+    - team
+    - marketing
+spec:
+  type: team
+  parent: bancorocks
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: platform-team
+  title: Platform Team
+  description: Platform engineering team for Banco Rocks.
+  tags:
+    - team
+    - platformengineering
+spec:
+  type: team
+  parent: bancorocks
+  children: []
