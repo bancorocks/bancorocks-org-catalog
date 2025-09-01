@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: bancorocks
-  title: Banco Rocks Org
+  name: bancorocks-org
+  title: Banco Rocks
   description: Organization entity for Banco Rocks.
   annotations:
     github.com/org-name: bancorocks
