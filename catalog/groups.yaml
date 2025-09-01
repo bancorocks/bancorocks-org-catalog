@@ -10,7 +10,7 @@ metadata:
     - banking
 spec:
   type: team
-  parent: bancorocks
+  parent: bancorocks-org
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -24,7 +24,7 @@ metadata:
     - marketing
 spec:
   type: team
-  parent: bancorocks
+  parent: bancorocks-org
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -38,5 +38,5 @@ metadata:
     - platformengineering
 spec:
   type: team
-  parent: bancorocks
+  parent: bancorocks-org
   children: []
