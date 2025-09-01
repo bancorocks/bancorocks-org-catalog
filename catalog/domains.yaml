@@ -2,23 +2,23 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: banking
+  name: banking-domain
   title: Banking
   description: Domain for banking capabilities.
   tags:
     - domain
     - banking
 spec:
-  owner: bancorocks
+  owner: bancorocks-org
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: marketing
+  name: marketing-domain
   title: Marketing
   description: Domain for marketing capabilities.
   tags:
     - domain
     - marketing
 spec:
-  owner: bancorocks
+  owner: bancorocks-org
