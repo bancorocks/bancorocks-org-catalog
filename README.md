@@ -1,4 +1,4 @@
-# Banco Rocks - Organization Catalog
+# Organization Catalog
 
 This repository contains the **Backstage Catalog files** (YAML entities) for the **Banco Rocks** organization.
 
